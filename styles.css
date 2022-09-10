@@ -3,20 +3,57 @@ body {
 }
 
 .container {
-    margin: 8px;
-    padding: 8px;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 8px;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  align-items: center;
 }
 a {
   text-decoration: none;
-  color: white;
+  color: #f9faf8;
 }
 
-.logo-name {
-  font-size: large;
-  font-weight: 900;
+.logo {
+  color: #e5e7eb;
 }
-.link {
-    margin: 8px;
+.links-container {
+  margin-left: auto;
+}
+.links-container ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  margin: 16px;
+  font-size: 18px;
+}
+
+.hero-section {
+  margin-left: 400px;
+  margin-right: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+h2 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: extra-bold;
+}
+
+p {
+  color: #e5e7eb;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+.hero-image {
+  background-color: gray;
+  height: 200px;
+  width: 700px;
 }
