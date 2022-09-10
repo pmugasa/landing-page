@@ -1,0 +1,22 @@
+body {
+  background-color: #1f2937;
+}
+
+.container {
+    margin: 8px;
+    padding: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo-name {
+  font-size: large;
+  font-weight: 900;
+}
+.link {
+    margin: 8px;
+}
