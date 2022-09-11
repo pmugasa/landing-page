@@ -159,3 +159,14 @@ h3 {
   border-radius: 10px;
   color: #e5e7eb;
 }
+
+footer{
+    
+    font-size: larger;
+    font-weight: bold;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 54px;
+}
+
+
